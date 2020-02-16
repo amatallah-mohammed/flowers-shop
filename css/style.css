@@ -1,0 +1,427 @@
+﻿body{
+
+background:#eee;
+}
+.bg-light {
+    background-color: white !important;
+}
+#product{
+margin-left: 42%;font-size: 45px;font-family: initial;color: #8c36ac; margin-top: 9%;
+
+}
+.bg-dark {
+    background-color: #fff !important;
+}
+a{
+
+text-decoration: none;
+}
+.border{
+	
+	
+	
+	
+	
+	width:100%;
+	margin:auto;
+	padding: 10px;
+	
+	
+	
+	height: auto;
+	overflow:hidden;
+}
+.leftside{
+	margin-right: 10%;
+	width: 25%;
+	float:left;
+}
+.rightside{
+
+	width: 25%;
+	float:left;
+	text-align:center;
+}
+.content{
+	
+	width: 50%;
+	float:left;
+	
+}
+.leftcontent{
+	margin-right: 10%;
+	width:25%;
+	float:left;
+}
+
+.rightcontent{
+	
+	width:25%;
+	float:left;
+}
+.shop-item{
+margin-top: 12%;
+background: white;
+height: auto;
+display:none;
+}
+img {
+
+    vertical-align: middle;
+    margin: 2% 25%;
+
+}
+.shop-item-button{
+background: #a980cd;
+
+border-color: #a980cd;
+
+border-radius: 4px;
+
+margin: 2% 7%;
+
+padding: 7px 28px;
+
+}
+.sbutton{
+background: #f7f515;
+    border-color: #f4f314;
+    border-radius: 4px;
+    margin: 3% 4%;
+    padding: 7px 40px;
+
+}
+.shop-item-price{
+margin: 1px 131px;
+
+font-size: 21px;
+
+font-weight: bold;
+
+}
+.shop-item-title{
+margin: 1% 38%;
+
+font-size: 21px;
+
+font-weight: bold;}
+p{
+margin: 1% 33%;
+
+}
+
+.shopping-cart {
+    display: inline-block;
+    background: url('http://cdn1.iconfinder.com/data/icons/jigsoar-icons/24/_cart.png') no-repeat 0 0;
+    width: 24px;
+    height: 24px;
+    margin: 0 10px 0 0;
+}
+#itemCount {
+ position: absolute;
+display: none;
+top: 28px;
+left: 1190px;
+width: 4px;
+height: 14px;
+border-radius: 116%;
+background: red;
+color: white;
+text-align: center;
+padding-bottom: 2%;
+padding-right: 1%;
+padding-left: 1%;
+}
+.cart-row {
+    display: flex;
+}
+
+.cart-item {
+    width: 45%;
+}
+
+.cart-price {
+    width: 20%;
+    font-size: 1.2em;
+    color: #333;
+    margin-top: 2%;
+}
+
+.cart-quantity {
+    width: 35%;
+}
+
+.cart-item-title {
+    color: #333;
+    margin-left: .5em;
+    font-size: 1.2em;
+	margin: 3px 24px;
+}
+
+.cart-item-image {
+    width: 75px;
+    height: auto;
+    border-radius: 10px;
+	margin-left: -1%;
+}
+
+.btn-danger {
+   color: white;
+background-color: #EB5757;
+border: none;
+border-radius: .3em;
+font-weight: bold;
+margin-top: -7px;
+}
+
+.btn-danger:hover {
+    background-color: #CC4C4C;
+}
+
+.cart-quantity-input {
+   height: 35px;
+width: 78px;
+border-radius: 5px;
+border: 1px solid #783AAE;
+background-color: #fff;
+color: #333;
+padding: 0;
+text-align: center;
+font-size: 1.2em;
+margin-right: 9px;
+margin-top: 5%;
+
+margin-left: 23%;}
+
+/*.cart-row:last-child {
+    border-bottom: 1px solid black;
+}*/
+
+.cart-row:last-child .cart-column {
+    border: none;
+}
+
+.cart-total {
+    text-align: end;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.cart-total-title {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: black;
+    margin-right: 20px;
+}
+
+.cart-total-price {
+    color: #333;
+    font-size: 1.1em;
+}
+
+
+.btn-purchase {
+    display: block;
+    margin: 40px auto 80px auto;
+    font-size: 1.75em;
+}
+
+
+
+.table thead th {
+    vertical-align: bottom;
+     border: 1px solid black;
+}
+.table td, .table th {
+    padding:-0.25rem;
+    vertical-align: bottom;
+    
+
+   
+}
+@media (max-width: 480px) { 
+            body { 
+                background-color:#eee; 
+            } 
+				.leftside {
+    margin-right: 54%;
+    width: 87%;
+    float: left;
+}
+.leftcontent {
+    margin-right: 61%;
+    width: 89%;
+    float: left;
+}
+.rightcontent {
+    width: 89%;
+    float: left;
+}
+p{
+margin: 0% 27%;}
+.add {
+    background: #8f65bb;
+    border-color: #8f65bb;
+    border-radius: 11px;
+    margin: 2% 26%;
+}
+#itemCount {
+    position: absolute;
+    display: none;
+    top: 487px;
+left: 52px;
+    width: 2px;
+    height: 2px;
+    border-radius: 52%;
+    background: red;
+    color: white;
+    text-align: center;
+    padding-bottom: 7%;
+    padding-right: 7%;
+    padding-left: 1%;
+
+}
+.navbar{
+//top: 25px;
+}
+#product{
+margin-left: 31%;
+
+font-size: 45px;
+
+font-family: initial;
+
+color: #8c36ac;
+
+margin-top: 12%;
+}
+        }
+/*sign up*/
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* Add a background color when the inputs get focus */
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for all buttons */
+#btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+#btn:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container1 {
+  padding: 16px;
+}
+
+/* The Modal (background) */
+.modal1 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: #474e5d;
+  padding-top: 50px;
+}
+
+/* Modal Content/Box */
+.modal-content1 {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* Style the horizontal ruler */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+ 
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+     width: 100%;
+  }
+}
+/*end sign up*/
+.load-more{
+  background-color: #7a2b86;
+color: #fff !important;
+padding: 5px 10px;
+border-radius: 4px;
+font-size: 20px;
+margin: 31px 486px;
+display: inline-block;
+}
+
+.load-more:hover{
+  background-color:yellow;
+  text-decoration:none;
+}
+/* dropdown*/	
+.navbar-expand-lg .navbar-nav .drop {
+
+ width: 810%;
+margin-left: -333%;
+margin-top: 6%;
+
+}
